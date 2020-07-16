@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Trabalho Prático</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Trabalho Prático</h1>
+        (R) Vermelho: 
+        <input type="range" id="red-range" value="0" min="0" max="255">
+        <input type="text" id="display-red" value="0" readonly disabled>
+        <p></p>
+        (G) Verde: 
+        <input type="range"  id="green-range" value="0" min="0" max="255">
+        <input type="text" id="display-green" value="0" readonly disabled>
+        <p></p>
+        (B) Azul: 
+        <input type="range" id="blue-range" value="0" min="0" max="255">
+        <input type="text" id="display-blue" value="0" readonly disabled>
+    </div>
+    <div id="color-rgb">
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/function.js"></script>
+</body>
+</html>
